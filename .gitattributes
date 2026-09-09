@@ -1,0 +1,25 @@
+# 統一換行
+* text=auto
+
+# Unity 文字資產用 LF
+*.cs text eol=lf
+*.meta text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+
+# 大型美術/音訊素材走 Git LFS
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# docs/（WebGL 成品）不能走 LFS，否則 GitHub Pages 無法正常提供檔案
+docs/** -filter -diff -merge text=auto
+docs/**/*.data -text
+docs/**/*.wasm -text

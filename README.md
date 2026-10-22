@@ -12,7 +12,7 @@
 ## 開發流程
 
 1. 用 GitHub Desktop 把這個 repo **clone** 到自己電腦
-2. 用 Unity Hub 開啟 clone 下來的資料夾（Unity 6 LTS，全班統一版本）
+2. 用 Unity Hub 開啟 clone 下來的資料夾（Unity 6000.5.8f1，全班統一版本，與電腦教室相同）
 3. 開發 → commit → push，重複到完成
 
 ## WebGL 部署步驟（取得可玩網址）

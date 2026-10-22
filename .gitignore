@@ -37,3 +37,6 @@ crashlytics-build.properties
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+
+# API key 等機密檔（第 11 週起使用）——永遠不要上傳
+Assets/Secrets/

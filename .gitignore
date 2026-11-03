@@ -39,5 +39,7 @@ crashlytics-build.properties
 *.mdb.meta
 
 # API key 等機密檔（第 11 週起使用）——永遠不要上傳
+# key 存在專案根目錄的 Secrets/（Unity 選單「AI 工具 → 設定 Gemini API Key」會自動建立），不在 Assets 裡，也不會被打包進遊戲
+/Secrets/
 Assets/Secrets/
 Assets/Secrets.meta
